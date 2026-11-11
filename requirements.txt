@@ -1,0 +1,12 @@
+# === Mini-Projet 2 : Emulation IIoT - Sparkplug B ===
+# Communication MQTT
+paho-mqtt==1.6.1
+
+# Implementation Eclipse Tahu (Sparkplug B) + encodage Protobuf
+tahutils
+protobuf==4.25.3
+
+# Backend Host (Phase 3)
+fastapi
+uvicorn[standard]
+websockets

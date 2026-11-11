@@ -1,0 +1,17 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Node / React
+node_modules/
+dist/
+build/
+
+# Secrets et divers
+.env
+*.log
+.DS_Store
+.idea/
+.vscode/
